@@ -50,6 +50,24 @@ This project consists of **5 Jupyter notebooks**, each responsible for one step 
 - Saves output to:
   - `Analyze_dataset1.csv`
   - `my_dataset.csv`
+ 
+    ### 6️⃣ `Analysis.ipynb`
+- Performs exploratory data analysis and insight generation
+- Visualizes patterns across:
+  - Price ranges
+  - Manufacturers
+  - Ratings and review volumes
+  - Sentiment and pain points (from LLM output)
+- Generates:
+  - Sunburst and treemap charts
+  - Heatmaps and bar plots for aspect-level insights
+  - Review-to-rating engagement metrics
+  - Brand-wise and segment-wise comparisons
+- Helps identify:
+  - Market gaps
+  - Brand positioning
+  - Product opportunities
+  - Key pain points by price or brand
 
 ---
 
