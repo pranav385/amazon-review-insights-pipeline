@@ -15,7 +15,7 @@ An end-to-end pipeline to extract, clean, and analyze Amazon product reviews usi
 
 ## 🗂️ Project Structure
 
-This project consists of **5 Jupyter notebooks**, each responsible for one step in the pipeline:
+This project consists of **6 Jupyter notebooks**, each responsible for one step in the pipeline:
 
 ### 1️⃣ `1_Extract_Amazon_Data.ipynb`
 - Crawls Amazon search results and product review pages
@@ -51,13 +51,12 @@ This project consists of **5 Jupyter notebooks**, each responsible for one step 
   - `Analyze_dataset1.csv`
   - `my_dataset.csv`
  
-    ### 6️⃣ `Analysis.ipynb`
+ ### 6️⃣ `Analysis.ipynb`
 - Performs exploratory data analysis and insight generation
 - Visualizes patterns across:
   - Price ranges
   - Manufacturers
   - Ratings and review volumes
-  - Sentiment and pain points (from LLM output)
 - Generates:
   - Sunburst and treemap charts
   - Heatmaps and bar plots for aspect-level insights
@@ -67,7 +66,6 @@ This project consists of **5 Jupyter notebooks**, each responsible for one step 
   - Market gaps
   - Brand positioning
   - Product opportunities
-  - Key pain points by price or brand
 
 ---
 
