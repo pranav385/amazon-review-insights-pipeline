@@ -27,6 +27,8 @@ This project consists of **6 Jupyter notebooks**, each responsible for one step 
 - Removes duplicates, formats text, and adds metadata
 - Saves output to: `Cleaned_laptop_df.csv`
 
+Note: For efficient local LLM processing (LLaMA 3 via Ollama), I intentionally sampled a limited number of reviews per product. This trade-off ensured faster, high-quality insight generation while maintaining system performance. The pipeline remains scalable for full datasets.
+
 ### 3️⃣ `3_LLM_Response_Main.ipynb`
 - Sends each cleaned review to a local LLM (via Ollama LLaMA3)
 - Extracts:
